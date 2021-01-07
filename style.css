@@ -1,0 +1,116 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    overflow: hidden;
+}
+ul li{
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+    padding: 20px 30px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+ul li a:hover{
+    background-color: green;
+}
+.rakib{
+    float: right;
+}
+.active{
+    background-color: greenyellow;
+}
+/*Features*/
+#wrapper{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container  .box{
+    position: relative;
+    width: 350px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px gray;
+    border-radius: 4px;
+    margin: 0px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container  .box .icon{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    color: #fff;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 0.8s;
+}
+.container .box:nth-child(1).icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.container .box:nth-child(1):hover .icon{
+    box-shadow: 0 0 0 400px #1ee95b;
+    background: #1ee95b;
+}
+.container .box:nth-child(2).icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.container .box:nth-child(2):hover .icon{
+    box-shadow: 0 0 0 400px #1ee95b;
+    background: #1ee95b;
+}
+.container .box:nth-child(3).icon{
+    box-shadow: 0 0 0 0 #e91e63;
+    background: #e91e63;
+}
+.container .box:nth-child(3):hover .icon{
+    box-shadow: 0 0 0 400px #00ff4c;
+    background: #1ee95b;
+}
+
+.container .box .content{
+    position: relative;
+    z-index: 1;
+    transform: 0.5s;
+    text-align: center;
+}
+
+.container .box:hover .content{
+    color: #fff;
+}
+
+.container .box .content a{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
